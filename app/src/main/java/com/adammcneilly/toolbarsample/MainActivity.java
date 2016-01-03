@@ -13,7 +13,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        // Obtain a reference to the Toolbar component.
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        // Set our Toolbar to be the support action bar so it will behave in the same way
+        // ActionBar does in older versions of Android.
         setSupportActionBar(toolbar);
     }
 }
